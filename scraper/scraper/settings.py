@@ -93,7 +93,7 @@ TWISTED_REACTOR = "twisted.internet.asyncioreactor.AsyncioSelectorReactor"
 FEED_EXPORT_ENCODING = "utf-8"
 
 # MongoDB settings
-ITEM_PIPELINES = ['scraper.pipelines.MongoDBPipeline', ]
+ITEM_PIPELINES = {'scraper.pipelines.MongoDBPipeline':1,}
 
 MONGODB_SERVER = "localhost"
 MONGODB_PORT = 27017
