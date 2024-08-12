@@ -9,5 +9,6 @@ from scrapy.item import Item, Field
 class ScraperItem(Item):
     title = Field()
     url = Field()
+    question = Field()
 
 

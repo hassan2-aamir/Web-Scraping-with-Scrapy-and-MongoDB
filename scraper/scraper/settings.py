@@ -98,4 +98,4 @@ ITEM_PIPELINES = {'scraper.pipelines.MongoDBPipeline':1,}
 MONGODB_SERVER = "localhost"
 MONGODB_PORT = 27017
 MONGODB_DB = "stackoverflow"
-MONGODB_COLLECTION = "questions"
+MONGODB_COLLECTION = "question with content"
